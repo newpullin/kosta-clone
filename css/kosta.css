@@ -1,0 +1,232 @@
+.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10000;
+    width: 100%;
+  }
+  .list-group {
+    list-style-type: none;
+  }
+  .list-group-item {
+    text-align: left;
+    border: none;
+    margin: 0px;
+    padding: 10px;
+    padding-left: 20px;
+  }
+  .list-group-item > a {
+    color: rgb(53, 48, 48);
+
+    font-size: 18px;
+  }
+  .list-group-item:last-child {
+    padding-bottom: 40px;
+  }
+
+  .little_title {
+    color: rgb(21, 69, 158);
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+    padding-top: 40px;
+    font-size: 1.5em;
+    font-family: "Noto Sans KR", sans-serif;
+  }
+
+  .btn-go {
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Noto Sans KR", sans-serif;
+  }
+
+  .bg-white {
+    box-sizing: border-box;
+    width: 1200px;
+    padding: 50px;
+    margin-bottom: 20px;
+    margin-left: 260px;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  .short-cut {
+    margin: 20px;
+  }
+  .ncs-title-text {
+    margin-top: 20px;
+    margin: 20px;
+    font-weight: 500;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .main-text {
+    font-weight: 700;
+    font-size: 24px;
+    color: rgb(21, 69, 158);
+  }
+  .sub-text {
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .row4 {
+    margin-left: 60px;
+  }
+
+  .privacy {
+    font-size: small;
+    color: black;
+    text-align: center;
+  }
+
+  .cardbox {
+    margin-left: 150px;
+    margin-bottom: 100px;
+    margin-top: 120px;
+    background-color: white;
+  }
+
+  .card {
+    width: 270px;
+    margin-left: 40px;
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 0 8px 16px -8px rgba(0,0,0,0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  }
+  
+  .box-shadow {
+    box-shadow: 0 0px 0px -5px rgba(50, 50, 93, 0.25);
+  }
+  .footer_list {
+    list-style: none;
+    font-size: 14px;
+    margin-left: 50px;
+  }
+
+  .footer_list:first-child {
+      margin-left: 200px;
+  }
+  .footer_list > li {
+    margin: 40px;
+  }
+  .footer_list > li:first-child {
+    color: white;
+    font-size: 22px;
+    font-weight: 800;
+  }
+  .footer_list > li > a {
+    color: white;
+  }
+  @keyframes ColorAnimation {
+      0% { color : white; }
+      100% { color : rgba(238, 161, 17, 0.856); }
+  }
+
+  .fab:hover {
+      animation-name : ColorAnimation; 
+      animation-duration : 1s;
+      animation-iteration-count : 1; 
+  }
+
+  .fab {
+    color:white;
+    margin:5px;
+  }
+  }
+  #main-menu, #sub-menu {
+    list-style-type: none;
+  }
+
+  #main-menu > li {
+    float: left ;
+    display: inline;
+  }
+
+  #main-menu > li > a {
+    display: block;
+    padding: 8px 16px;
+    text-align: center;
+
+  }
+
+  #main-menu > li > a {
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    display: block;
+    padding: 12px 36px;
+  }
+
+  #sub-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    list-style-type: none;
+  }
+
+  @keyframes OpacityAnimation {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+  #sub-menu > li {
+    padding: 16px 28px;
+    background-color: rgb(244, 245, 247);
+  }
+
+  #sub-menu > li > a {
+    color: rgb(22, 20, 20);
+  }
+
+  #main-menu > li > a {
+    color: rgb(65, 65, 65);
+    font-weight: 300;
+  }
+
+  #main-menu > li:hover #sub-menu {
+    animation-name : OpacityAnimation; 
+    animation-duration : 1s;
+    animation-iteration-count : 1; 
+    visibility: visible;
+  }
+
+  .navbar {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+  }
+
+  .pull-left {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    width: 2000px;
+    background-color: rgb(240, 239, 238);
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+  }
+
+  .calender_main {
+    margin-top: 200px;
+    margin-bottom: 50px;
+  }
+
+
+  body > div > div.col-md-3.side-menu > div > div:nth-child(2) > ul > li {
+      list-style-type: none;
+  }
+
+  aside { 
+      width:250px; 
+      height:100%; 
+      float:right;
+      margin-left: 15px; 
+    }
+
+    .aside_box > ul > li{
+        list-style-type: none;
+        padding: 10px 0px 10px;
+    }
